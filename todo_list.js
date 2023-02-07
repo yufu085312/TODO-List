@@ -41,3 +41,9 @@ taskSubmit.addEventListener('click', evt => {
     addTasks(task);
     taskValue.value = '';
 });
+
+let date = document.querySelector(`input[type='date'][name='date']`);
+
+date.addEventListener(`change`, function() {
+    document.querySelector(`#output`).innerHTML = date.value;
+});

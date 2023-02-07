@@ -19,6 +19,7 @@ html {
 
 #table {
     background-color: papayawhip;
+    color: black;
     width: 50%;
     height: 400px;
     border-radius: 1rem;
@@ -35,4 +36,13 @@ li {
     margin: 2rem 2rem 2rem 0;
     display: flex;
     justify-content: space-between;
+    color: black;
+}
+
+.container {
+    padding: 10px;
+}
+
+input[type=date] {
+    font-size: 18px;
 }
